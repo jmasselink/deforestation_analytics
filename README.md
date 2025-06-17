@@ -8,8 +8,8 @@ Alerts can be downloaded in tiles as TIFFs from this [website](https://data.glob
 Monitor forest disturbance alerts integrated from three satellite sources in near real time
 There's information on the encoding in the Summary section if you click View Full Details on the left. They go back a few years but I'll just caution against using the alerts to analyze trends or quantify forest loss over time.
 
-# How could I use Python code to derive a CSV with 4 fields: longitude, latitude, date, and confidence level from a raster which has the following encoding/syntax?:
-# Each pixel (alert) encodes the date of disturbance and confidence level in one integer value. 
+```How could I use Python code to derive a CSV with 4 fields: longitude, latitude, date, and confidence level from a raster which has the following encoding/syntax?```
+Each pixel (alert) encodes the date of disturbance and confidence level in one integer value.
 The leading integer of the decimal representation is:
 - 2 for a low-confidence alert, 
 - 3 for a high-confidence alert, and 
