@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "git.autofetch": true,
+    "window.customTitleBarVisibility": "windowed",
+    "python.pythonPath": "C:\\ProgramData\\miniconda3\\envs\\rasterio\\python.exe"
+    {
+
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    }
+}
