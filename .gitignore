@@ -1,2 +1,4 @@
 deforestation_env.txt
 requirements.txt
+import_data/*
+.DS_Store
