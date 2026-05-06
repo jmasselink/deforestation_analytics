@@ -1,13 +1,17 @@
-# rasterio
- 
-https://data.globalforestwatch.org/datasets/gfw::integrated-deforestation-alerts/about
+# Deforestation Analytics
 
-Alerts can be downloaded in tiles as TIFFs from this [website](https://data.globalforestwatch.org/datasets/gfw::integrated-deforestation-alerts/explore?location=0.016316%2C20.448465%2C3.83)
+This repo contains scripts to calculate deforestation using two different datasets:
+1. Global Forest Watch Integrated Disturbance Alerts (formerly Integrated Deforestation Alerts)
+>  https://data.globalforestwatch.org/datasets/gfw::integrated-deforestation-alerts/about
 
-[Integrated deforestation alerts](data.globalforestwatch.org)
-Monitor forest disturbance alerts integrated from three satellite sources in near real time
+- Alerts can be downloaded in tiles as TIFFs from this [website](https://data.globalforestwatch.org/datasets/gfw::integrated-deforestation-alerts/explore?location=0.016316%2C20.448465%2C3.83)
+
+ [Integrated Disturbance alerts](data.globalforestwatch.org)
+- Monitor forest disturbance alerts integrated from four satellite sources in near real time.  
+
 There's information on the encoding in the Summary section if you click View Full Details on the left. They go back a few years but I'll just caution against using the alerts to analyze trends or quantify forest loss over time.
 
+2. 
 
 #### Environment setup
 
