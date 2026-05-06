@@ -9,11 +9,16 @@ This repo contains scripts to calculate deforestation using two different datase
  [Integrated Disturbance alerts](data.globalforestwatch.org)
 - Monitor forest disturbance alerts integrated from four satellite sources in near real time.  
 
-There's information on the encoding in the Summary section if you click View Full Details on the left. They go back a few years but I'll just caution against using the alerts to analyze trends or quantify forest loss over time.
+There's information on the encoding in the Summary section if you click View Full Details on the left. They go back a few years but I'll just caution against using the alerts to analyze trends or quantify forest loss over time.  
 
-2. 
+2. Global Forest Change 2000-2025
+> https://storage.googleapis.com/earthenginepartners-hansen/GFC-2025-v1.13/download.html
 
-#### Environment setup
+Download 10 DD x 10 DD grid, using the 
+`lossyear` dataset.
+
+---
+### Environment setup
 
 Using Conda:
 `conda env create -f environment.yml`
